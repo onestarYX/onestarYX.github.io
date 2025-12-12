@@ -34,3 +34,13 @@ Selected Publications
 {% endfor %}
 
 [See all publications]({{ "/publications/" | relative_url }})
+
+Teaching
+======
+- Graduate Student Instructor, EECS 542—Advanced Topics in Computer Vision, UMich	
+- Tutor, CSE 151A—Introduction to Machine Learning, UC San Diego
+
+
+Professonal Services
+======
+- Reviewer for ICCV'23, 25.
