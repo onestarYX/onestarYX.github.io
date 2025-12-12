@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2021_covid_sim
 excerpt: ''
-date: 2021
+date: 2021-09-19
 venue: 'Frontiers in Computer Science'
 # slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2021.642321/full'
