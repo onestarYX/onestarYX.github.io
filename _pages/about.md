@@ -16,8 +16,7 @@ Previously, I obtained a M.S. degree in Computer Science from Stanford Universit
 
 Selected Publications
 ======
-TODO
-<!-- {% assign pubs = site.publications | sort: "date" | reverse %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
 {% assign selected_pubs = pubs | where_exp: "p", "p.selected == true or p.featured == true" %}
 
 {% if selected_pubs and selected_pubs.size > 0 %}
@@ -30,4 +29,4 @@ TODO
   {% include archive-single.html %}
 {% endfor %}
 
-[See all publications]({{ "/publications/" | relative_url }}) -->
+[See all publications]({{ "/publications/" | relative_url }})
