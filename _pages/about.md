@@ -17,7 +17,9 @@ Previously, I obtained a M.S. degree in Computer Science from Stanford Universit
 Selected Publications
 ======
 {% assign pubs = site.publications | sort: "date" | reverse %}
-{% assign selected_pubs = pubs | where_exp: "p", "p.selected == true or p.featured == true" %}
+{% assign selected_true = pubs | where: "selected", true %}
+{% assign featured_true = pubs | where: "featured", true %}
+{% assign selected_pubs = selected_true | concat: featured_true | uniq %}
 
 {% if selected_pubs and selected_pubs.size > 0 %}
   {% assign pubs_to_show = selected_pubs %}
