@@ -4,8 +4,8 @@ collection: publications
 category: conferences
 # permalink: /publication/2021_covid_sim
 excerpt: ''
-date: 2022
-venue: 'SIGGRAPH Asia'
+# date: 2022
+venue: 'SIGGRAPH Asia 2022'
 # slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://dl.acm.org/doi/10.1145/3550469.3555426'
 codeurl: https://github.com/onestarYX/summon
