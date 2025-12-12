@@ -1,0 +1,47 @@
+{%- assign item = include.item -%}
+{%- assign link_style = "" -%}
+{%- if include.small -%}
+  {%- assign link_style = ' style="font-size: smaller"' -%}
+{%- endif -%}
+
+{%- assign has_any = false -%}
+{%- if item.citation or item.paperurl or item.slidesurl or item.bibtexurl or item.codeurl or item.projecturl -%}
+  {%- assign has_any = true -%}
+{%- endif -%}
+
+{%- if has_any -%}
+  <p{{ link_style }}>
+    {%- if item.citation -%}
+      Recommended citation: {{ item.citation }}<br />
+    {%- endif -%}
+
+    {%- assign sep = "" -%}
+
+    {%- if item.paperurl -%}
+      {{ sep }}<a href="{{ item.paperurl }}">[Paper]</a>
+      {%- assign sep = " | " -%}
+    {%- endif -%}
+
+    {%- if item.codeurl -%}
+      {{ sep }}<a href="{{ item.codeurl }}">[Code]</a>
+      {%- assign sep = " | " -%}
+    {%- endif -%}
+
+    {%- if item.projecturl -%}
+      {{ sep }}<a href="{{ item.projecturl }}">[Project]</a>
+      {%- assign sep = " | " -%}
+    {%- endif -%}
+
+    {%- if item.slidesurl -%}
+      {{ sep }}<a href="{{ item.slidesurl }}">Download Slides</a>
+      {%- assign sep = " | " -%}
+    {%- endif -%}
+
+    {%- if item.bibtexurl -%}
+      {{ sep }}<a href="{{ item.bibtexurl }}">Download Bibtex</a>
+      {%- assign sep = " | " -%}
+    {%- endif -%}
+  </p>
+{%- endif -%}
+
+
