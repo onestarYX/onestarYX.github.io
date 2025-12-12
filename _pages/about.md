@@ -7,16 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Yixing Wang, a 2nd year CS PhD student in University of Michigan. I'm fortunate to be advised by Prof. [Stella Yu](). I'm broadly insterested in 2D/3D computer vision and robotics. My current research focuses on unsupervised visual representation learning and 3D scene understanding.
+Hi, I'm Yixing Wang, a 2nd year CS PhD student in University of Michigan. I'm fortunate to be advised by Prof. [Stella Yu](https://web.eecs.umich.edu/~stellayu/). I'm broadly insterested in 2D/3D computer vision and robotics. My current research focuses on unsupervised visual representation learning and 3D scene understanding.
 
-Previously, I obtained a M.S. degree in Computer Science from Stanford University, where I had a privillage to work closely with Prof. [Jiajun Wu](). Even before that, I obtained a B.S. degree in Computer Scicence from UC San Diego.
+Previously, I obtained a M.S. degree in Computer Science from Stanford University, where I had a privillage to work closely with Prof. [Jiajun Wu](https://jiajunwu.com/). Even before that, I obtained a B.S. degree in Computer Scicence from UC San Diego.
 
 
 
 
 Selected Publications
 ======
-
+TODO
 <!-- {% assign pubs = site.publications | sort: "date" | reverse %}
 {% assign selected_pubs = pubs | where_exp: "p", "p.selected == true or p.featured == true" %}
 
