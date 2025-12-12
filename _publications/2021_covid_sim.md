@@ -2,7 +2,7 @@
 title: "Simulation Agent-Based Model to Demonstrate the Transmission of COVID-19 and Effectiveness of Different Public Health Strategies"
 collection: publications
 category: conferences
-permalink: /publication/2021_covid_sim
+# permalink: /publication/2021_covid_sim
 excerpt: ''
 date: 2021-09-19
 venue: 'Frontiers in Computer Science'
