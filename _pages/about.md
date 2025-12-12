@@ -13,7 +13,7 @@ Hi, I'm Yixing Wang, a 2nd year CS PhD student in University of Michigan. I'm fo
 
 Previously, I obtained a M.S. degree in Computer Science from Stanford University, where I had a privillage to work closely with Prof. [Jiajun Wu](https://jiajunwu.com/). Even before that, I obtained a B.S. degree in Computer Scicence from UC San Diego.
 
-
+I'm actively seeking internship opportunities for summer 2026. Please feel free to reach out to me if you have opportunities and want a chat!
 
 
 Selected Publications
