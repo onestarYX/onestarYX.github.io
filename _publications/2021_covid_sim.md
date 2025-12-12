@@ -11,5 +11,5 @@ paperurl: 'https://www.frontiersin.org/journals/computer-science/articles/10.338
 codeurl: https://github.com/onestarYX/Aip197_Anti-virus_GameDev
 projecturl: https://pongcenter.itch.io/anti-plague
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
-authors: "Yixing Wang†, Hainan Xiong†, Sijie Liu†, Ara Jung, Trish Stone, Leanne Chukoskie*."
+authors: "<strong>Yixing Wang</strong>†, Hainan Xiong†, Sijie Liu†, Ara Jung, Trish Stone, Leanne Chukoskie*."
 ---
