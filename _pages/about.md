@@ -33,7 +33,11 @@ Selected Publications
   {% include archive-single.html %}
 {% endfor %}
 
+{% if site.author.googlescholar %}
+[See all publications]({{ site.author.googlescholar }})
+{% else %}
 [See all publications]({{ "/publications/" | relative_url }})
+{% endif %}
 
 Teaching
 ======
